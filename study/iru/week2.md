@@ -40,7 +40,11 @@ ls src/
 ### 2. 빌드
 ```
 cd ~/ros2_3dslam_ws
+
+sudo apt install ros-jazzy-cv-bridge
+
 source /opt/ros/jazzy/setup.bash
-colcon build --packages-select tm_gazebo
+colcon build
 source install/setup.bash
 ```
+<img width="813" height="135" alt="image" src="https://github.com/user-attachments/assets/2b5f9f61-1486-4313-a88f-5a92f8d0e231" />
