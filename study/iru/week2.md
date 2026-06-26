@@ -56,7 +56,17 @@ source install/setup.bash
 <img width="813" height="135" alt="image" src="https://github.com/user-attachments/assets/2b5f9f61-1486-4313-a88f-5a92f8d0e231" />
 
 ### 4. 실행
+```
+sudo rosdep init
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
 
+# 또는
+
+sudo apt install ros-jazzy-rqt-robot-steering
+
+ros2 launch tm_gazebo gazebo.launch.py
+```
 
 #### 참고
 .h 를 .hpp 로변경<br/>
